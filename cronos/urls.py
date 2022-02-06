@@ -23,11 +23,13 @@ from rest_framework_simplejwt.views import (
 
 from core.api.viewsets import UserViewSet
 from services.api.viewsets import ServiceViewSet
+from team_members.api.viewsets import TeamMemberViewSet
 
 
 router = routers.DefaultRouter()
 router.register(r'users', UserViewSet)
 router.register(r'services', ServiceViewSet)
+router.register(r'team-members', TeamMemberViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
