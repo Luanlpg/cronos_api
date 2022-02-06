@@ -1,0 +1,199 @@
+- model: auth.user
+  pk: 5
+  fields:
+    password: ""
+    last_login: null
+    is_superuser: false
+    username: luansantos
+    first_name: ""
+    last_name: ""
+    email: luansantos@teste.com
+    is_staff: true
+    is_active: true
+    date_joined: 2022-02-06 05:37:48.685580+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 6
+  fields:
+    password: ""
+    last_login: null
+    is_superuser: false
+    username: josealmeida
+    first_name: ""
+    last_name: ""
+    email: josealmeida@teste.com
+    is_staff: false
+    is_active: true
+    date_joined: 2022-02-06 05:38:15.490267+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 7
+  fields:
+    password: ""
+    last_login: null
+    is_superuser: false
+    username: paulosousa
+    first_name: ""
+    last_name: ""
+    email: paulosousa@teste.com
+    is_staff: false
+    is_active: true
+    date_joined: 2022-02-06 05:38:30.514252+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 8
+  fields:
+    password: ""
+    last_login: null
+    is_superuser: false
+    username: carlostevez
+    first_name: ""
+    last_name: ""
+    email: carlostevez@teste.com
+    is_staff: false
+    is_active: true
+    date_joined: 2022-02-06 05:38:44.970668+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 9
+  fields:
+    password: ""
+    last_login: null
+    is_superuser: false
+    username: adreprado
+    first_name: ""
+    last_name: ""
+    email: adreprado@teste.com
+    is_staff: false
+    is_active: true
+    date_joined: 2022-02-06 05:39:02.414728+00:00
+    groups: []
+    user_permissions: []
+- model: services.service
+  pk: 1
+  fields:
+    name: criação de site
+    description: criação de site comum
+    price: "1000.00"
+    created_at: 2022-02-06 05:40:41.331446+00:00
+    updated_at: 2022-02-06 05:40:41.331521+00:00
+- model: services.service
+  pk: 2
+  fields:
+    name: Design de logo
+    description: criação de logomarca comum
+    price: "500.00"
+    created_at: 2022-02-06 05:41:25.775822+00:00
+    updated_at: 2022-02-06 05:41:25.775869+00:00
+- model: services.service
+  pk: 3
+  fields:
+    name: Prototipação de sistema
+    description: criação de prototipo comum
+    price: "500.00"
+    created_at: 2022-02-06 05:42:17.255913+00:00
+    updated_at: 2022-02-06 05:42:17.256015+00:00
+- model: team_members.teammember
+  pk: 1
+  fields:
+    first_name: Jose
+    last_name: da Silva
+    email: zesilva@teste.com
+    phone: 11-1111-1111
+    position: CTO
+    bio: eu nasci no brasil e bla bla bla...
+    created_at: 2022-02-06 05:44:31.733873+00:00
+    updated_at: 2022-02-06 05:44:31.733952+00:00
+- model: team_members.teammember
+  pk: 2
+  fields:
+    first_name: Paulo
+    last_name: Freire
+    email: paulo.f@teste.com
+    phone: 11-1111-2222
+    position: CO
+    bio: eu nasci em Portugal e bla bla bla...
+    created_at: 2022-02-06 05:45:25.182046+00:00
+    updated_at: 2022-02-06 05:45:25.182140+00:00
+- model: team_members.teammember
+  pk: 3
+  fields:
+    first_name: Bruna
+    last_name: Santos
+    email: b.santos@teste.com
+    phone: 11-7777-2222
+    position: Dev
+    bio: eu nasci em São Paulo e bla bla bla...
+    created_at: 2022-02-06 05:46:31.081732+00:00
+    updated_at: 2022-02-06 05:46:31.081799+00:00
+- model: posts.post
+  pk: 1
+  fields:
+    title: Promoção de dia das mães!
+    content: Dia das mães então toma 40% de desconto em qualquer serviço...
+    created_at: 2022-02-06 05:49:17.288397+00:00
+    updated_at: 2022-02-06 05:49:17.288465+00:00
+- model: posts.post
+  pk: 2
+  fields:
+    title: Como atrair mais clientes para sua loja virtual!
+    content:
+      Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+      adipisci velit...
+    created_at: 2022-02-06 05:51:15.217732+00:00
+    updated_at: 2022-02-06 05:51:15.217838+00:00
+- model: posts.post
+  pk: 3
+  fields:
+    title: Desenvolvimento seguro!
+    content:
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+      commodo sapien metus, non gravida felis tincidunt ac. Mauris dignissim metus
+      sapien. Pellentesque eu nisl felis. Interdum et malesuada fames ac ante ipsum
+      primis in faucibus. Sed sagittis eleifend augue, vitae sollicitudin nisi ultrices
+      et. Integer imperdiet elementum mauris, quis convallis eros consectetur at.
+      Curabitur pretium posuere lacus, commodo dictum nisl. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Nam porttitor, massa elementum tincidunt
+      blandit, sem nisl aliquet sem, in hendrerit nunc est quis massa. Donec viverra
+      facilisis velit et semper. Vestibulum quis risus vestibulum, auctor sem sed,
+      euismod ex. Integer consectetur lobortis ex. Phasellus ac mi ut elit cursus
+      tempus....
+    created_at: 2022-02-06 05:52:03.035789+00:00
+    updated_at: 2022-02-06 05:52:03.035845+00:00
+- model: posts.post
+  pk: 4
+  fields:
+    title: Como fazemos para entregar seu sistema tão rapido
+    content:
+      Ut facilisis vestibulum varius. Morbi vehicula, enim sit amet pharetra
+      mattis, ligula sapien vestibulum leo, sed faucibus enim nisl ut risus. Curabitur
+      lacinia justo massa, eget efficitur dui iaculis in. Mauris accumsan, magna et
+      luctus venenatis, urna massa lobortis orci, in luctus augue est et leo. Ut eget
+      turpis a velit iaculis ullamcorper. Mauris imperdiet rutrum tellus feugiat dapibus.
+      In metus nunc, ornare a aliquam ac, tristique non libero. Nulla facilisi. Nunc
+      vehicula bibendum dictum. Nam auctor porttitor orci vel finibus. Donec nunc
+      purus, cursus dictum mi id, sagittis fringilla turpis. Donec a dapibus ex, vel
+      molestie diam. Nulla sit amet lorem ligula. Quisque interdum justo nibh, et
+      tristique ante pellentesque ut. Fusce lorem est, blandit congue quam ac, laoreet
+      rutrum turpis.....
+    created_at: 2022-02-06 05:52:51.823750+00:00
+    updated_at: 2022-02-06 05:52:51.823868+00:00
+- model: posts.post
+  pk: 5
+  fields:
+    title: Guia rápido do que não falar para seus clientes
+    content:
+      Vivamus pharetra sem mi, non tristique metus tempus nec. Aenean bibendum
+      ante et diam porttitor dapibus. Curabitur sed diam ac turpis vestibulum venenatis
+      condimentum a purus. Donec aliquet efficitur laoreet. Etiam vitae lectus semper,
+      laoreet urna sollicitudin, placerat lacus. Ut a tincidunt ipsum. Mauris eu faucibus
+      ligula. Ut libero neque, pretium ac ante a, fermentum tempor arcu. Phasellus
+      libero tortor, vestibulum a aliquet ac, accumsan non nulla. Curabitur fringilla
+      facilisis felis, mattis placerat mauris tempus id. Integer finibus lacinia consequat.
+      Ut dictum euismod sagittis...
+    created_at: 2022-02-06 05:53:46.399450+00:00
+    updated_at: 2022-02-06 05:53:46.399489+00:00
