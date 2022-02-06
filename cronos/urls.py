@@ -22,10 +22,12 @@ from rest_framework_simplejwt.views import (
 )
 
 from core.api.viewsets import UserViewSet
+from services.api.viewsets import ServiceViewSet
 
 
 router = routers.DefaultRouter()
 router.register(r'users', UserViewSet)
+router.register(r'services', ServiceViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
