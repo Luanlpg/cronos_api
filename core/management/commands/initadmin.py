@@ -18,4 +18,4 @@ class Command(BaseCommand):
                 admin.is_admin = True
                 admin.save()
         else:
-            print('Admin accounts can only be initialized if no Accounts exist')
+            print('Admin users can only be initialized if no Users exist')
