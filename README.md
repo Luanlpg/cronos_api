@@ -7,7 +7,7 @@ API para gerenciamento de Serviços, Posts e Integrantes da Equipe, permitindo q
 - Python
 - Django
 - DRF
-- Postgrees
+- PostgreSQL
 - Docker e docker-compose
 - Github Actions(Testes automatizados)
 - Swagger
@@ -43,10 +43,10 @@ API para gerenciamento de Serviços, Posts e Integrantes da Equipe, permitindo q
 ## Rodando o server com docker-compose
 
 - Rode: `docker-compose up`
-- Este comando sobe um container postegres e o container do projeto backend
+- Este comando sobe um container postgres e o container do projeto backend
 
 ## Documentação
 
-- Documenntação swagger: `localhost:8000/swagger/`
-- Documenntação redoc: `localhost:8000/redoc/`
+- Documentação swagger: `localhost:8000/swagger/`
+- Documentação redoc: `localhost:8000/redoc/`
 - OBS: Para testar a api no swagger, após se autenticar no endpoint `POST api/token/` usar o prefixo Bearer. ex: `Bearer <TOKEN>`
